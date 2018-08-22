@@ -1,0 +1,23 @@
+{
+  "presets": [ 
+    "es2015",
+    "es2016",
+    "react",
+    "stage-1"
+  ],
+  "plugins": [
+    ["transform-runtime", {
+      "regenerator": true
+    }],
+    ["module-resolver", {
+      "root": ["./src"],
+      "alias": {
+        "utils": "./src/utils",
+        "modules": "./src/modules",
+        "config": "./src/config",
+        "styles": "./src/style",
+        "resources": "./src/resources"
+      }
+    }]
+  ]
+}

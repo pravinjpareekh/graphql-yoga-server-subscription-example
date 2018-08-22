@@ -1,0 +1,17 @@
+{
+  "name": "blogr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "graphql-yoga": "1.14.12",
+    "prisma-binding": "2.1.0"
+  }
+}

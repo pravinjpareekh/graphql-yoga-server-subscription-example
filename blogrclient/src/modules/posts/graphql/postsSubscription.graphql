@@ -1,0 +1,11 @@
+subscription PostsSubscription {
+  publications {
+    node {
+      id
+      title
+      content
+      published
+    }
+    updatedFields
+  }
+}
